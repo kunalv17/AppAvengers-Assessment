@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "inter";
+}
+
+html,
+body,
+:root {
+  height: 100%;
+}
+
+.editor::-webkit-scrollbar{
+  width:0;
+  background: transparent;
+}
+
+.jodit-status-bar-link{
+  display: none !important;
+}
+
+.jodit-add-new-line,.jodit-add-new-line_after{
+  display: none !important;
+}
+
+.jodit-dialog__content::-webkit-scrollbar{
+  width:0;
+  background: transparent;
+}
+
